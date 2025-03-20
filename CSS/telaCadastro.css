@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.frame {              
+    background: #dedfda;
+    height: 100vh; 
+    width: 100vw; 
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    right: 50%;
+    object-fit: cover;  
+}
+
+h1 {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    position: absolute;
+    font-size: 150px;
+    font-weight: 400;
+    right: 520px;
+    top: 90px;
+}
+
+.subTitulo {
+    color: #000000;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 48px; 
+    line-height: 110.34%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    right: 690px;
+    top: 297px;
+}
+
+.inputfield {
+    width: 40%;
+    height: 50px;
+    background: transparent;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    position: relative; /* Removendo a posição absoluta */
+    left: 1000px; /* Mantém o alinhamento à esquerda */
+    top: 360px;
+}
+
+.inputfield input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+}
+
+.inputfield + .inputfield {
+    margin-top: 20px; /* Espaço entre os campos de entrada */
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.inputfield-dd {
+    width: 5%;
+    height: 50px;
+    background: transparent;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    position: relative; /* Removendo a posição absoluta */
+    left: 1000px; /* Mantém o alinhamento à esquerda */
+    top: 370px;
+}
+
+.inputfield-dd input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+}
+
+.inputfield-dd + .inputfield-dd {
+    margin-top: 20px; /* Espaço entre os campos de entrada */
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.inputfield-numero {
+    width: 32%;
+    height: 50px;
+    background: transparent;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    position: relative; /* Removendo a posição absoluta */
+    left: 1150px; /* Mantém o alinhamento à esquerda */
+    top: 310px;
+}
+
+.inputfield-numero input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+}
+
+.inputfield-numero + .inputfield-numero {
+    margin-top: 20px; /* Espaço entre os campos de entrada */
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.volt{
+    position: relative;
+    color: black;
+    text-decoration: none; 
+    font-family: "Poppins", sans-serif;
+    top: 3px;
+    left: 1810px;
+    
+}
+
+.esqueci{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    align-items: center;
+    position: relative; /* Removendo a posição absoluta */
+    left: 90px; /* Mantém o alinhamento à esquerda */
+    top: 400px;
+    right: 160px;
+    left: 950px;
+}
+
+.acessa{
+    font-family: "Poppins", sans-serif;
+    color: #ff2121;
+}
+
+.btn-primary {
+    font-family: "Poppins", sans-serif;
+    width: 15%;
+    height: 50px;
+    border: none;
+    background: #ff2121;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    position: absolute; /* Mantenha a posição absoluta */
+    right: 120px;
+}
+
+.btn-primary:hover {
+    background: white;
+    color: #ff2121;
+    border: 1px solid #ff2121;
+    cursor: pointer;
+}
+
+#butInciar {
+    top: 800px; /* Ajusta a posição do botão de login abaixo do .txtHome */
+}
+
+.sms{
+    font-family: "Poppins", sans-serif;
+    position: absolute; 
+    left: 1000px;
+    top: 750px;
+}
+
+#tp{
+    position: absolute;
+    left: 1000px;
+    top: 792px;
+}
+
+#tpd{
+    position: absolute;
+    left: 1000px;
+    top: 854px;
+}
+
+.nov{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    left: 1020px;
+    top: 785px;
+}
+
+.poli{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    left: 1020px;
+    top: 848px;
+}
+
+.pp{
+    color: #ff2121;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    left: 1130px;
+    top: 848px;
+}
