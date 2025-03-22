@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 6rem;
+    text-decoration: none;
+}
+
+.icon1,
+.icon2 {
+    width: 45px;
+    /* Reduzindo o tamanho das imagens */
+    height: 45px;
+}
+
+.icons a {
+    margin-right: 20px;
+    /* Adicionando espaçamento entre as imagens */
+}
+
+.icons a:last-child {
+    margin-right: 0;
+    /* Removendo a margem à direita da última imagem */
+}
+
+.topoCima>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topoCima {
+    background-color: black;
+    padding: 40px 4%;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinha os ícones à direita */
+    align-items: center;
+    /* Alinha os ícones verticalmente */
+    gap: 20px;
+    /* Adiciona espaçamento entre os ícones */
+    margin-top: -50px;
+    /* Ajuste o valor conforme necessário */
+
+}
+
+
+
+/*---------------------------------------------------------------------conteudo-----------------------------------------------------------------------------------------------*/
+
+
+.guitarraIMG {
+    width: 425px;
+    height: 521px;
+    position: absolute;
+    left: 360px;
+    top: 359px;
+    object-fit: cover;
+}
+
+
+
+.infoProd {
+    text-align: 80%;
+    position: absolute;
+    left: 916px;
+    top: 359px;
+    width: 841px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    /* Para alinhar verticalmente */
+    gap: 20px;
+}
+
+.idProd {
+    color: #000000;
+    font-family: "Oswald, sans-serif";
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.valorParcelado {
+    color: #726c6c;
+    font-family: "Oswald, sans-serif";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.valorAVista {
+    color: #000000;
+    font-family: "Oswald, sans-serif";
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.descontoPix {
+    color: #008000;
+    font-family: "Oswald, sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.parcelamento {
+    color: #000000;
+    font-family: "Oswald, sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*---------------------------------------------------------------------FALTA OS ICON--------------------------------------------------------------------------------------------*/
+.formasDePagamento {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+    
+}
+
+
+.pix {
+    width: 40px;
+    height: 40px;
+    position: flex;
+}
+
+.visa {
+    width: 53px;
+    height: 53px;
+    position: flex;
+
+}
+
+.boleto {
+    width: 53px;
+    height: 53px;
+    position: flex;
+    aspect-ratio: 1;
+}
+
+/*---------------------------------------------------------------------botoes-----------------------------------------------------------------------------------------------*/
+
+
+.btn-adicionar {
+    font-family: "Poppins", sans-serif;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #ff2121;
+    background: #ffffff;
+    color: #ff2121;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    position: absolute;
+    /* Mantenha a posição absoluta */
+    left: 916px;
+    top: 830px;
+}
+
+.btn-adicionar:hover {
+    background: #ff2121;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.btn-comprar {
+    font-family: "Poppins", sans-serif;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background: #ff2121;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    position: absolute;
+    /* Mantenha a posição absoluta */
+    left: 1400px;
+    top: 830px;
+}
+
+.btn-comprar:hover {
+    background: #ffffff;
+    color: #ff2121;
+    border: 1px solid #ff2121;
+    cursor: pointer;
+}
