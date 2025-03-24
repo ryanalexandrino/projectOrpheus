@@ -132,7 +132,7 @@ header {
     flex-direction: row;
     gap: 40px;
     margin-top: 40px;
-    
+
 }
 
 
@@ -203,4 +203,341 @@ header {
     color: #ff2121;
     border: 1px solid #ff2121;
     cursor: pointer;
+}
+
+.descriçãoDoProduto {
+    position: absolute;
+    left: 916px;
+    top: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h3Descrição {
+    font-size: 34px;
+    font-family: "Oswald, sans-serif";
+}
+
+
+
+/*---------------------------------------------------------------------botoes-----------------------------------------------------------------------------------------------*/
+
+
+
+.rodape {
+    background: #dedfda;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    left: 0px;
+    top: 1500px;
+}
+
+
+.line-3 {
+    margin-top: -3px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 3px 0 0 0;
+    width: 1758.42px;
+    height: 0px;
+    position: absolute;
+    left: 81.29px;
+    top: 420.6px;
+}
+
+.rectangle-50 {
+    background: #2c2c2c;
+    width: 1921px;
+    height: 139.26px;
+    position: absolute;
+    left: 0px;
+    top: 650.74px;
+}
+
+.selos-segurran-a {
+    width: 283.65px;
+    height: 172.84px;
+    position: static;
+}
+
+.selos-de-seguran-a {
+    color: #ff2121;
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 1617.34px;
+    top: 458.41px;
+    width: 283.65px;
+    height: 65.05px;
+}
+
+.image-19 {
+    width: 54.17px;
+    height: 80.71px;
+    position: absolute;
+    left: 1703px;
+    top: 550.55px;
+    object-fit: cover;
+    aspect-ratio: 54.17/80.71;
+}
+
+.formas-pagamento {
+    width: 349.18px;
+    height: 162.74px;
+    position: static;
+}
+
+.formas-de-pagamento {
+    color: #ff2121;
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 869.7px;
+    top: 458.41px;
+    width: 283.65px;
+    height: 65.05px;
+}
+
+.image-16 {
+    width: 51.14px;
+    height: 51.14px;
+    position: absolute;
+    left: 804.17px;
+    top: 541.92px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.image-17 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 881.02px;
+    top: 545px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.image-18 {
+    width: 104.7px;
+    height: 104.7px;
+    position: absolute;
+    left: 1015.45px;
+    top: 516.45px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.redes-socias {
+    width: 283.65px;
+    height: 172.88px;
+    position: static;
+}
+
+.siga-nos-nas-redes-socias {
+    color: #ff2121;
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 170.09px;
+    top: 458.37px;
+    width: 283.65px;
+    height: 65.16px;
+}
+
+.image-13 {
+    width: 47.14px;
+    height: 47.14px;
+    position: absolute;
+    left: 182.41px;
+    top: 564.44px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.image-14 {
+    width: 107.27px;
+    height: 89.43px;
+    position: absolute;
+    left: 213.33px;
+    top: 541.81px;
+    object-fit: cover;
+    aspect-ratio: 107.27/89.43;
+}
+
+.image-15 {
+    width: 47.75px;
+    height: 47.75px;
+    position: absolute;
+    left: 300.92px;
+    top: 563.81px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.logo {
+    position: static;
+    left: 1496px;
+    top: 267.3px;
+    font-weight: 400;
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 6rem;
+    text-decoration: none;
+}
+
+
+.imagem-do-whats-app-de-2025-03-08-s-08-03-15-6-f-9-f-042-f-2 {
+    width: 210.94px;
+    height: 192px;
+    position: absolute;
+    left: 1582px;
+    top: 96px;
+    object-fit: cover;
+    aspect-ratio: 210.94/192;
+}
+
+.textos {
+    width: 1254.15px;
+    height: 313.28px;
+    position: static;
+}
+
+.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco {
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 80.54px;
+    top: 107.32px;
+    width: 354.18px;
+    height: 262.32px;
+}
+
+.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco-span {
+    color: #ff2121;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco-span2 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775 {
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 466.49px;
+    top: 107.32px;
+    width: 427.97px;
+    height: 313.28px;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span {
+    color: #ff2121;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span2 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span3 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span4 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span5 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span6 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site {
+    text-align: left;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 887.21px;
+    top: 107.32px;
+    width: 447.48px;
+    height: 274.06px;
+}
+
+.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site-span {
+    color: #ff2121;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site-span2 {
+    color: #000000;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------rodape baixo--------------------------------------------------------------------------------*/
+
+.rodapeBaixo {
+
+    background: #2c2c2c;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 2150px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Oswald, sans-serif";
+    text-align: center;
 }
