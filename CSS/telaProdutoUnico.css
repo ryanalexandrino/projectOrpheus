@@ -256,25 +256,6 @@ header {
     top: 650.74px;
 }
 
-.selos-segurran-a {
-    width: 283.65px;
-    height: 172.84px;
-    position: static;
-}
-
-.selos-de-seguran-a {
-    color: #ff2121;
-    text-align: left;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 1617.34px;
-    top: 458.41px;
-    width: 283.65px;
-    height: 65.05px;
-}
-
 .image-19 {
     width: 54.17px;
     height: 80.71px;
@@ -291,7 +272,7 @@ header {
     position: static;
 }
 
-.formas-de-pagamento {
+.formasDePagamento {
     color: #ff2121;
     text-align: left;
     font-family: "JuliusSansOne-Regular", sans-serif;
@@ -304,7 +285,7 @@ header {
     height: 65.05px;
 }
 
-.image-16 {
+.imgCodBarra {
     width: 51.14px;
     height: 51.14px;
     position: absolute;
@@ -314,7 +295,7 @@ header {
     aspect-ratio: 1;
 }
 
-.image-17 {
+.imgPix {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -324,7 +305,7 @@ header {
     aspect-ratio: 1;
 }
 
-.image-18 {
+.imgVisa {
     width: 104.7px;
     height: 104.7px;
     position: absolute;
@@ -334,23 +315,17 @@ header {
     aspect-ratio: 1;
 }
 
-.redes-socias {
-    width: 283.65px;
-    height: 172.88px;
-    position: static;
-}
-
-.siga-nos-nas-redes-socias {
+.redeSociais {
     color: #ff2121;
-    text-align: left;
+    text-align: center;
     font-family: "JuliusSansOne-Regular", sans-serif;
     font-size: 30px;
     font-weight: 400;
     position: absolute;
-    left: 170.09px;
-    top: 458.37px;
+    left: 180px;
+    top: 458.41px;
     width: 283.65px;
-    height: 65.16px;
+    height: 65.05px;    
 }
 
 .image-13 {
@@ -383,26 +358,16 @@ header {
     aspect-ratio: 1;
 }
 
-.logo {
-    position: static;
-    left: 1496px;
-    top: 267.3px;
+.lf {
+    position: absolute;
     font-weight: 400;
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
     font-size: 6rem;
     text-decoration: none;
-}
-
-
-.imagem-do-whats-app-de-2025-03-08-s-08-03-15-6-f-9-f-042-f-2 {
-    width: 210.94px;
-    height: 192px;
-    position: absolute;
-    left: 1582px;
+    left: 1500px;
     top: 96px;
-    object-fit: cover;
-    aspect-ratio: 210.94/192;
+
 }
 
 .textos {
@@ -411,7 +376,7 @@ header {
     position: static;
 }
 
-.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco {
+.institucional {
     text-align: left;
     font-family: "JuliusSansOne-Regular", sans-serif;
     font-size: 30px;
@@ -423,102 +388,11 @@ header {
     height: 262.32px;
 }
 
-.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco-span {
-    color: #ff2121;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.institucional-nossa-hist-ria-nossas-lojas-trabalhe-conosco-span2 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
 
 .atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775 {
     text-align: left;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 466.49px;
-    top: 107.32px;
-    width: 427.97px;
-    height: 313.28px;
-}
 
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span {
-    color: #ff2121;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
 }
-
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span2 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span3 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    text-decoration: underline;
-}
-
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span4 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span5 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    text-decoration: underline;
-}
-
-.atendimento-sac-orpheus-com-br-11-99458-2832-11-95724-4775-span6 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site {
-    text-align: left;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 887.21px;
-    top: 107.32px;
-    width: 447.48px;
-    height: 274.06px;
-}
-
-.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site-span {
-    color: #ff2121;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.d-vidas-formas-de-pagamento-processo-de-entrega-trocas-e-devolu-es-pol-tica-de-privacidade-d-vidas-frequentes-regras-do-site-span2 {
-    color: #000000;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
 
 
 
@@ -529,7 +403,6 @@ header {
 /*-----------------------------------------------------------------------rodape baixo--------------------------------------------------------------------------------*/
 
 .rodapeBaixo {
-
     background: #2c2c2c;
     width: 100%;
     height: 100px;
