@@ -24,18 +24,15 @@ header {
 .icon1,
 .icon2 {
     width: 45px;
-    /* Reduzindo o tamanho das imagens */
     height: 45px;
 }
 
 .icons a {
     margin-right: 20px;
-    /* Adicionando espaçamento entre as imagens */
 }
 
 .icons a:last-child {
     margin-right: 0;
-    /* Removendo a margem à direita da última imagem */
 }
 
 .topoCima>.interface {
@@ -52,14 +49,9 @@ header {
 .icons {
     display: flex;
     justify-content: flex-end;
-    /* Alinha os ícones à direita */
     align-items: center;
-    /* Alinha os ícones verticalmente */
     gap: 20px;
-    /* Adiciona espaçamento entre os ícones */
     margin-top: -50px;
-    /* Ajuste o valor conforme necessário */
-
 }
 
 
@@ -71,24 +63,25 @@ header {
     width: 425px;
     height: 521px;
     position: absolute;
-    left: 360px;
-    top: 359px;
+    right: 52%;
+    top: 300px;
     object-fit: cover;
 }
 
 
 
+
 .infoProd {
-    text-align: 80%;
-    position: absolute;
-    left: 916px;
-    top: 359px;
-    width: 841px;
-    height: 535px;
+    left: 52%;
+    top: 320px;
+    height: auto;
+    width: 1000px;
     display: flex;
     flex-direction: column;
-    /* Para alinhar verticalmente */
     gap: 20px;
+    position: absolute;
+
+
 }
 
 .idProd {
@@ -99,7 +92,7 @@ header {
 }
 
 .valorParcelado {
-    color: #726c6c;
+    color: gray;
     font-family: "Oswald, sans-serif";
     font-size: 30px;
     font-weight: 400;
@@ -113,7 +106,7 @@ header {
 }
 
 .descontoPix {
-    color: #008000;
+    color: green;
     font-family: "Oswald, sans-serif";
     font-size: 16px;
     font-weight: 400;
@@ -126,53 +119,35 @@ header {
     font-weight: 400;
 }
 
-/*---------------------------------------------------------------------FALTA OS ICON--------------------------------------------------------------------------------------------*/
-.formasDePagamento {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin-top: 40px;
-    
-}
 
-
+.visa,
+.boleto,
 .pix {
-    width: 53px;
-    height: 53px;
-    position: flex;
+    width: 45px;
+    height: 45px;
+    margin-top: 50px;
+    margin-right: 15px;
 }
 
-.visa {
-    width: 53px;
-    height: 53px;
-    position: flex;
-
-}
-
-.boleto {
-    width: 53px;
-    height: 53px;
-    position: flex;
-    aspect-ratio: 1;
-}
 
 /*---------------------------------------------------------------------botoes-----------------------------------------------------------------------------------------------*/
 
+.botoesCompra {
+    display: flex;
+    gap: 5%;
+    margin-top: 150px;
+}
 
 .btn-adicionar {
     font-family: "Poppins", sans-serif;
-    width: 20%;
+    width: 35%;
     height: 50px;
     border: 1px solid #ff2121;
     background: #ffffff;
     color: #ff2121;
     font-weight: 600;
-    margin: 10px 0;
     text-transform: uppercase;
-    position: absolute;
-    /* Mantenha a posição absoluta */
-    left: 916px;
-    top: 830px;
+
 }
 
 .btn-adicionar:hover {
@@ -184,17 +159,13 @@ header {
 
 .btn-comprar {
     font-family: "Poppins", sans-serif;
-    width: 20%;
+    width: 35%;
     height: 50px;
     border: 1px solid #ffffff;
     background: #ff2121;
     color: #ffffff;
     font-weight: 600;
-    margin: 10px 0;
     text-transform: uppercase;
-    position: absolute;
-    left: 1400px;
-    top: 830px;
 }
 
 .btn-comprar:hover {
@@ -204,12 +175,13 @@ header {
     cursor: pointer;
 }
 
+/*---------------------------------------------------------------------descrição do produto-----------------------------------------------------------------------------------------------*/
+
 .descriçãoDoProduto {
-    position: absolute;
-    left: 916px;
-    top: 1000px;
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
+    font-size: 30px;
     gap: 20px;
 }
 
@@ -218,147 +190,111 @@ header {
     font-family: "Oswald, sans-serif";
 }
 
-
-
-/*---------------------------------------------------------------------botoes-----------------------------------------------------------------------------------------------*/
-
+/*---------------------------------------------------------------------footer-----------------------------------------------------------------------------------------------*/
 
 
 .rodape {
     background: #dedfda;
     width: 100%;
-    height: 650px;
-    position: absolute;
-    left: 0px;
-    top: 1500px;
-}
-
-
-
-
-.formas-pagamento {
-    width: 349.18px;
-    height: 162.74px;
-    position: static;
-}
-
-.formasDePagamento {
-    color: #ff2121;
-    text-align: left;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 800px;
-    top: 458.41px;
-    width: 283.65px;
-    height: 65.05px;
-}
-
-.pix2 {
-    width: 40px;
-    height: 40px;
-    position: flex;
-}
-
-.visa2 {
-    width: 53px;
-    height: 53px;
-    position: flex;
-
-}
-
-.boleto2 {
-    width: 53px;
-    height: 53px;
-    position: flex;
-    aspect-ratio: 1;
-}
-
-.redeSociais {
-    color: #ff2121;
-    text-align: center;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 180px;
-    top: 458px;
-    width: 283px;
-    height: 65px;    
-}
-
-.image-13 {
-    width: 47.14px;
-    height: 47.14px;
-    position: absolute;
-    left: 182.41px;
-    top: 564.44px;
-    object-fit: cover;
-    aspect-ratio: 1;
-}
-
-.image-14 {
-    width: 107.27px;
-    height: 89.43px;
-    position: absolute;
-    left: 213.33px;
-    top: 541.81px;
-    object-fit: cover;
-    aspect-ratio: 107.27/89.43;
-}
-
-.image-15 {
-    width: 47.75px;
-    height: 47.75px;
-    position: absolute;
-    left: 300.92px;
-    top: 563.81px;
-    object-fit: cover;
-    aspect-ratio: 1;
-}
-
-.lf {
-    position: absolute;
-    font-weight: 400;
-    color: #ff2121;
-    font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 6rem;
-    text-decoration: none;
-    left: 1500px;
-    top: 96px;
-
+    height: 400px;
+    margin-top: 90%;
 }
 
 .textos {
-    width: 1254px;
-    height: 314px;
-    position: static;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    gap: 50px;
 }
 
-.institucional {
+.texto-bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
     text-align: left;
-    font-family: "JuliusSansOne-Regular", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    left: 80.54px;
-    top: 107.32px;
-    width: 354.18px;
-    height: 262.32px;
+    width: 30%; 
 }
+
+.texto-bloco p {
+    font-weight: bold;
+    color: #ff2121;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.texto-bloco ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.texto-bloco ul li {
+    margin-bottom: 8px;
+}
+
+
+.redeSociais {
+    color: #ff2121;
+    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; 
+}
+
+.redeSociais img {
+    margin-top: 10px;
+}
+
+.formasDePagamento2 {
+    color: #ff2121;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 45%; 
+}
+
+.formasDePagamento2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formasDePagamento2 img {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.lf {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/* Formas*
 
 /*-----------------------------------------------------------------------rodape baixo--------------------------------------------------------------------------------*/
 
 .rodapeBaixo {
     background: #2c2c2c;
     width: 100%;
-    height: 100px;
-    position: absolute;
-    top: 2150px;
+    height: 60px;
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     font-family: "Oswald, sans-serif";
     text-align: center;
+    margin-top: auto;
+
 }
