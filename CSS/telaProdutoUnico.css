@@ -43,7 +43,7 @@ header {
 
 .topoCima {
     background-color: black;
-    padding: 40px 4%;
+    padding: 20px 4%;
 }
 
 .icons {
@@ -60,15 +60,12 @@ header {
 
 
 .guitarraIMG {
-    width: 425px;
-    height: 521px;
-    position: absolute;
-    right: 52%;
-    top: 300px;
-    object-fit: cover;
+    width: 400px;
+    height: auto;
+    position: sticky;
+    left: 30%;
+    margin-top: 120px;
 }
-
-
 
 
 .infoProd {
@@ -192,107 +189,85 @@ header {
 
 /*---------------------------------------------------------------------footer-----------------------------------------------------------------------------------------------*/
 
-
 .rodape {
     background: #dedfda;
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin-top: 90%;
 }
 
 .textos {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 40px;
-    gap: 50px;
+    gap: 20%;
+    margin-left: 10%;
+}
+
+ul {
+    color: #000000;
+    font-family: "Oswald, sans-serif";
+    font-size: 20px;
+    list-style: none;
 }
 
 .texto-bloco {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start; 
     text-align: left;
-    width: 30%; 
+    width: auto;
+
 }
 
 .texto-bloco p {
-    font-weight: bold;
     color: #ff2121;
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.texto-bloco ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.linha {
+    border: 1px solid #ff2121;
+    width: 58%;
+    margin: 30px;
+    margin-left: 12%;
 }
 
-.texto-bloco ul li {
-    margin-bottom: 8px;
-}
-
-
-.redeSociais {
+.footer-info {
+    display: flex;
+    gap: 20%;
+    margin-left: 20%;
     color: #ff2121;
-    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-family: "Oswald, sans-serif";
     font-size: 24px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%; 
+
 }
 
-.redeSociais img {
-    margin-top: 10px;
-}
-
-.formasDePagamento2 {
-    color: #ff2121;
-    font-family: "Oswald", sans-serif;
-    font-size: 24px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    width: 45%; 
-}
-
-.formasDePagamento2 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formasDePagamento2 img {
-    width: 50px;
+.footer-info img {
+    max-width: 50px;
     height: auto;
-    margin: 10px;
-    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+
 }
 
 .lf {
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 100px;
+    font-size: 150px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin-right: 20px;
+    position: relative;
+    left: 78%;
+    top: -180px;
+
 }
 
-/* Formas*
-
-/*-----------------------------------------------------------------------rodape baixo--------------------------------------------------------------------------------*/
+/*-------------rodape baixo----------------*/
 
 .rodapeBaixo {
     background: #2c2c2c;
     width: 100%;
-    height: 60px;
+    height: auto;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Oswald, sans-serif";
     text-align: center;
     margin-top: auto;
