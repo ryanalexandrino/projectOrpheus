@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #dedfda;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center; /* Alinha verticalmente no centro */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+
+h1 {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 20px; /* Espaçamento entre o título e o subtítulo */
+}
+
+.subTitulo {
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    line-height: 110.34%;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px; /* Espaçamento entre o subtítulo e o texto */
+}
+
+.txtHome {
+    color: #000000;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px; 
+    line-height: 110.34%;
+    font-weight: 400;
+    margin-bottom: 30px; /* Espaçamento entre o texto e os campos de entrada */
+}
+
+.inputfield {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o input dentro do campo */
+    margin-bottom: 20px; /* Espaçamento entre os campos de entrada */
+}
+
+.inputfield input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+}
+
+.btn-primary, .btn-second {
+    font-family: "Poppins", sans-serif;
+    width: 35%;
+    height: 50px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #ff2121;
+    color: #fff;
+    border: none;
+    position: relative; /* Remover posição absoluta */
+}
+
+.btn-primary:hover {
+    background: white;
+    color: #ff2121;
+    border: 1px solid #ff2121;
+}
+
+.btn-second {
+    background: white;
+    color: #ff2121;
+    border: 1px solid #ff2121;
+    position: relative; /* Remover posição absoluta */
+}
+
+.btn-second:hover {
+    background: #ff2121;
+    color: white;
+    border: 1px solid #ff2121;
+}
+
+/* Container para os botões lado a lado */
+.btn-container {
+    display: flex; /* Alinha os botões lado a lado */
+    gap: 20px; /* Espaço entre os botões */
+    justify-content: center; /* Centraliza os botões */
+    margin-top: 20px; /* Espaçamento entre os campos de entrada e os botões */
+}
+

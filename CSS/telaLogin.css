@@ -122,7 +122,32 @@ h1 {
     cursor: pointer;
 }
 
+.btn-second {
+    font-family: "Poppins", sans-serif;
+    width: 30%;
+    height: 50px;
+    border: none;
+    background: white;
+    color: #ff2121;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    position: absolute; /* Mantenha a posição absoluta */
+    left: 150px; /* Mantém o alinhamento à esquerda */
+    border: 1px solid #ff2121;
+}
+
+.btn-second:hover {
+    background: #ff2121;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
 #butInciar {
     top: 650px; /* Ajusta a posição do botão de login abaixo do .txtHome */
 }
 
+#butVoltar {
+    top: 720px; /* Ajusta a posição do botão de login abaixo do .txtHome */
+}

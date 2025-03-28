@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/telaLogin.css">
+    <script src="/JAVASCRIPT/telaHome.js"></script>
     <title>Login</title>
 </head>
 <body>
     <div class="frame">
         <img class="img" src="/FOTOS/imgHome.png" />
-        <a href="telaHome.html" class="volt">VOLTAR</a></p>
         <h1 class="titulo">Orpheus</h1>
         <h2 class="subTitulo">
             INICIAR SESSÃO
@@ -20,7 +20,8 @@
         <div class="inputfield">
             <input type="password" placeholder="Senha" required>
         </div>
-        <p class="esqueci">Esqueceu a senha? <a href="#" class="acessa">Acesse aqui</a></p>
+        <p class="esqueci">Esqueceu a senha? <a href="/HTML/telaEsqSenha.html" class="acessa">Acesse aqui</a></p>
         <input type="submit" value="Entrar" class="btn-primary" id="butInciar">
+        <input type="submit" value="Voltar" class="btn-second" id="butVoltar" onclick="redirectToVoltarH()">
 </body>
 </html>

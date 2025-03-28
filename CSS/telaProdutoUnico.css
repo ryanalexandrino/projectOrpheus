@@ -180,7 +180,8 @@ header {
 /*---------------------------------------------------------------------descrição do produto-----------------------------------------------------------------------------------------------*/
 
 .descriçãoDoProduto {
-    margin-top: 300px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     font-size: 30px;
@@ -188,8 +189,8 @@ header {
 }
 
 .h3Descrição {
+    font-family: "Poppins", sans-serif;
     font-size: 34px;
-    font-family: "Oswald, sans-serif";
 }
 
 /*---------------------------------------------------------------------footer-----------------------------------------------------------------------------------------------*/
@@ -209,12 +210,13 @@ header {
 
 ul {
     color: #000000;
-    font-family: "Oswald, sans-serif";
-    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
     list-style: none;
 }
 
 .texto-bloco {
+    font-family: "Poppins", sans-serif;
     flex-direction: column;
     text-align: left;
     width: auto;
@@ -222,6 +224,7 @@ ul {
 }
 
 .texto-bloco p {
+    font-family: "Poppins", sans-serif;
     color: #ff2121;
     font-size: 24px;
     margin-bottom: 10px;
@@ -240,7 +243,7 @@ ul {
     gap: 20%;
     margin-left: 20%;
     color: #ff2121;
-    font-family: "Oswald, sans-serif";
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
 
 }
@@ -252,9 +255,7 @@ ul {
     margin-top: 10px;
 
 }
-.logo-footer{
-    border: 1px solid red;
-}
+
 
 
 .lf {
@@ -262,22 +263,20 @@ ul {
     font-family: "Big Shoulders Inline", sans-serif;
     font-size: 150px;
     text-decoration: none;
-    display: flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
+    top: 1800px;
+    left: 1470px;
 }
 
 /*-------------rodape baixo----------------*/
 
 .rodapeBaixo {
-    background: #2c2c2c;
+    font-family: "Poppins", sans-serif;
+    background: black;
     width: 100%;
     height: auto;
     color: #ffffff;
-    font-size: 20px;
-    font-family: "Oswald, sans-serif";
+    font-size: 13px;
     text-align: center;
 
 }

@@ -33,8 +33,8 @@ h1 {
     position: absolute;
     font-size: 150px;
     font-weight: 400;
-    right: 520px;
-    top: 90px;
+    right: 560px;
+    top: 55px;
 }
 
 .subTitulo {
@@ -46,8 +46,8 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     position: absolute;
-    right: 690px;
-    top: 297px;
+    right: 730px;
+    top: 270px;
 }
 
 .inputfield {
@@ -61,7 +61,7 @@ h1 {
     align-items: center;
     position: relative; /* Removendo a posição absoluta */
     left: 1000px; /* Mantém o alinhamento à esquerda */
-    top: 360px;
+    top: 350px;
 }
 
 .inputfield input {
@@ -91,7 +91,7 @@ h1 {
     align-items: center;
     position: relative; /* Removendo a posição absoluta */
     left: 1000px; /* Mantém o alinhamento à esquerda */
-    top: 370px;
+    top: 360px;
 }
 
 .inputfield-dd input {
@@ -121,7 +121,7 @@ h1 {
     align-items: center;
     position: relative; /* Removendo a posição absoluta */
     left: 1150px; /* Mantém o alinhamento à esquerda */
-    top: 310px;
+    top: 300px;
 }
 
 .inputfield-numero input {
@@ -168,16 +168,16 @@ h1 {
 
 .btn-primary {
     font-family: "Poppins", sans-serif;
-    width: 15%;
+    width: 18%;
     height: 50px;
     border: none;
     background: #ff2121;
     color: #fff;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 50px 0;
     text-transform: uppercase;
     position: absolute; /* Mantenha a posição absoluta */
-    right: 120px;
+    right: 170px;
 }
 
 .btn-primary:hover {
@@ -187,6 +187,29 @@ h1 {
     cursor: pointer;
 }
 
+.btn-second {
+    font-family: "Poppins", sans-serif;
+    width: 18%;
+    height: 50px;
+    border: none;
+    background: white;
+    color: #ff2121ff;
+    font-weight: 600;
+    margin: 450px 0;
+    text-transform: uppercase;
+    position: absolute; /* Mantenha a posição absoluta */
+    right: 570px;
+    border: 1px solid #ff2121;
+}
+
+.btn-second:hover {
+    background: #ff2121;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
 #butInciar {
     top: 800px; /* Ajusta a posição do botão de login abaixo do .txtHome */
 }
@@ -195,33 +218,33 @@ h1 {
     font-family: "Poppins", sans-serif;
     position: absolute; 
     left: 1000px;
-    top: 750px;
+    top: 715px;
 }
 
 #tp{
     position: absolute;
     left: 1000px;
-    top: 792px;
+    top: 760px;
 }
 
 #tpd{
     position: absolute;
     left: 1000px;
-    top: 854px;
+    top: 800px;
 }
 
 .nov{
     font-family: "Poppins", sans-serif;
     position: absolute;
     left: 1020px;
-    top: 785px;
+    top: 754px;
 }
 
 .poli{
     font-family: "Poppins", sans-serif;
     position: absolute;
     left: 1020px;
-    top: 848px;
+    top: 794px;
 }
 
 .pp{
@@ -229,5 +252,5 @@ h1 {
     font-family: "Poppins", sans-serif;
     position: absolute;
     left: 1130px;
-    top: 848px;
+    top: 794px;
 }

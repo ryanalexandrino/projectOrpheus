@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/telaCadastro.css">
+    <script src="/JAVASCRIPT/telaHome.js"></script>
     <title>Cadastro</title>
 </head>
 
 <body>
     <div class="frame">
         <img class="img" src="/FOTOS/imgHome.png" />
-        <a href="telaHome.html" class="volt">VOLTAR</a></p>
         <h1 class="titulo">Orpheus</h1>
         <h2 class="subTitulo">
             Cadastro
@@ -36,10 +36,11 @@
         </div>
         <p class="sms">Enviaremos um SMS para verificar o seu número de telefone</p>
         <input type="checkbox" name="" id="tp">  
-        <p class="nov">Desejo receber informação sobre as novidades <br> de orpheus no meu e-mail</p>
+        <p class="nov">Desejo receber informação sobre as novidades de orpheus no meu e-mail</p>
         <input type="checkbox" name="" id="tpd">  
         <p class="poli">Li e entendi a</p><a class="pp" href="/HTML ADM/telaHomeAdm.html">Política de Privacidade e Cookies</a>
         <input type="submit" value="Cadastrar" class="btn-primary" id="butInciar">
+        <input type="submit" value="Voltar" class="btn-second" id="butVoltar" onclick="redirectToVoltarH()">
 </body>
 
 </html>
