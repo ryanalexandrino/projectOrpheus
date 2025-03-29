@@ -1,57 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     width: 100%;
     background-color: black;
     font-family: "Poppins", sans-serif;
 }
 
-.logo{
+.logo {
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
     font-size: 4rem;
 }
 
-.icon1, .icon2 {
-    width: 45px; /* Reduzindo o tamanho das imagens */
+.icon1,
+.icon2 {
+    width: 45px;
+    /* Reduzindo o tamanho das imagens */
     height: 45px;
 }
 
 .icons a {
-    margin-right: 20px; /* Adicionando espaçamento entre as imagens */
+    margin-right: 20px;
+    /* Adicionando espaçamento entre as imagens */
 }
 
 .icons a:last-child {
-    margin-right: 0; /* Removendo a margem à direita da última imagem */
+    margin-right: 0;
+    /* Removendo a margem à direita da última imagem */
 }
 
-.topoCima > .interface{
+.topoCima>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.topoCima{
+.topoCima {
     background-color: black;
     padding: 20px 4%;
 }
 
-.topoBaixo nav ul{
+.topoBaixo nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style-type: none;
 }
 
-.topoBaixo nav ul li a{
+.topoBaixo nav ul li a {
     color: white;
     padding: 15px 40px;
     text-decoration: none;
@@ -60,18 +64,18 @@ header{
     transition: .3s;
 }
 
-.topoBaixo nav ul li a:hover{
+.topoBaixo nav ul li a:hover {
     background-color: #ff2121;
     color: white;
 }
 
-.menuDrop{
+.menuDrop {
     position: relative;
 }
 
-.menuDrop .drop{
+.menuDrop .drop {
     position: absolute;
-    background-color: #309736;   
+    background-color: #309736;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -79,10 +83,16 @@ header{
 }
 
 /*-----------------------------------------------------------------SLIDE----------------------------------------------------*/
-
+:root {
+    background-image: url("../FOTOS/linhas\ de\ fundo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+  }
 section.slider {
     position: relative;
-   
+
     width: 100%;
     height: auto;
     padding: 0 !important;
@@ -90,17 +100,18 @@ section.slider {
 }
 
 
-.slider-content{
+.slider-content {
     width: 400%;
     height: auto;
     display: flex;
 }
 
-.slider-content input, .img-mobile{
+.slider-content input,
+.img-mobile {
     display: none;
 }
 
-.slide-box{
+.slide-box {
     width: 25%;
     height: auto;
     position: relative;
@@ -108,20 +119,20 @@ section.slider {
     transition: 1s;
 }
 
-.slide-box img{
+.slide-box img {
     width: 100%;
 }
 
 
-#radio1:checked ~ .primeiro{
+#radio1:checked~.primeiro {
     margin-left: 0%;
 }
 
-#radio2:checked ~ .primeiro{
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .primeiro{
+#radio3:checked~.primeiro {
     margin-left: -50%;
 }
 
@@ -146,6 +157,7 @@ input {
     border-bottom: 2px solid black;
     outline: none;
     font-family: "Oswald", sans-serif;
+
 }
 
 .buscarProduto img {
@@ -153,17 +165,37 @@ input {
     height: 50px;
     width: 50px;
     cursor: pointer;
-    /* Torna a lupa clicável */
+}
+
+
+.category {
+    display: flex;
+    margin: 10%;
+    font-family: "Poppins", sans-serif;
+    color: #ff2121;
+    font-size: 30px;
+    align-items: center;
+
+    &>.quadrado {
+        background-color: #ff2121;
+        height: 30px;
+        width: 15px;
+        border-radius: 100px;
+    }
+
+    &>p {
+        padding-left: 2%;
+    }
+
 }
 
 
 /*-------------------------------------------------------------PRODUTOS------------------------------------------------*/
 
 .swiper {
-    margin-top: 200px;
     width: 85%;
     height: 85%;
-    
+
 }
 
 .swiper-slide {
@@ -225,12 +257,12 @@ input {
     cursor: pointer;
 }
 
-h3{
+h3 {
     margin: 8px;
     font-family: "Poppins", sans-serif;
 }
 
-.txt-valor{
+.txt-valor {
     color: #000000;
     margin: 8px;
     font-family: "Poppins", sans-serif;
@@ -277,7 +309,6 @@ ul {
 }
 
 .texto-bloco p {
-    margin-left: 5%;
     font-family: "Poppins", sans-serif;
     color: #ff2121;
     font-size: 24px;

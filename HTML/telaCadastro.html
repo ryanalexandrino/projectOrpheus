@@ -11,36 +11,51 @@
 
 <body>
     <div class="frame">
-        <img class="img" src="/FOTOS/imgHome.png" />
-        <h1 class="titulo">Orpheus</h1>
-        <h2 class="subTitulo">
-            Cadastro
-        </h2>
-        <div class="inputfield">
-            <input type="text" placeholder="Nome Completo" required>
+
+        <div class="foto">
+            <img class="img" src="/FOTOS/imgHome.png" />
         </div>
-        <div class="inputfield">
-            <input type="email" placeholder="E-mail" required>
-        </div>
-        <div class="inputfield">
-            <input type="number" placeholder="CPF" required>
-        </div>
-        <div class="inputfield">
-            <input type="password" placeholder="Senha" required>
-        </div>
-        <div class="inputfield-dd">
-            <input type="number" placeholder="DDI" required>
-        </div>
-        <div class="inputfield-numero">
-            <input type="number" placeholder="Numero" required>
-        </div>
-        <p class="sms">Enviaremos um SMS para verificar o seu número de telefone</p>
-        <input type="checkbox" name="" id="tp">  
-        <p class="nov">Desejo receber informação sobre as novidades de orpheus no meu e-mail</p>
-        <input type="checkbox" name="" id="tpd">  
-        <p class="poli">Li e entendi a</p><a class="pp" href="/HTML ADM/telaHomeAdm.html">Política de Privacidade e Cookies</a>
-        <input type="submit" value="Cadastrar" class="btn-primary" id="butInciar">
-        <input type="submit" value="Voltar" class="btn-second" id="butVoltar" onclick="redirectToVoltarH()">
+        <section>
+            <h1>Orpheus</h1>
+            <h2>
+                Cadastro
+            </h2>
+            <div class="inputfield">
+                <input type="text" placeholder="Nome Completo" required>
+            </div>
+            <div class="inputfield">
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <div class="inputfield">
+                <input type="number" placeholder="CPF" required>
+            </div>
+            <div class="inputfield">
+                <input type="password" placeholder="Senha" required>
+            </div>
+            <div class="inputfield">
+                <input type="number" placeholder="+DDI" required id="ddi">
+                <input type="number" placeholder="Numero" required id="numero">
+            </div>
+
+
+
+            <div class="informações">
+                <p>
+                    Enviaremos um SMS para verificar o seu número de telefone
+                </p>
+                <p>
+                    <input type="checkbox" name="" id="termos">
+                    Desejo receber informação sobre as novidades de orpheus no meu e-mail
+                </p>
+
+                <p> <input type="checkbox" name="" id="termos">
+                    Li e entendi a Política de Privacidade e Cookies
+                </p>
+            </div>
+            <input type="submit" value="Voltar" class="btn-second" id="button" onclick="redirectToVoltarH()">
+            <input type="submit" value="Cadastrar" class="btn-primary" id="button">
+        </section>
+
 </body>
 
 </html>

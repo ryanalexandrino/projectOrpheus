@@ -112,7 +112,7 @@ h1 {
     margin: 10px 0;
     text-transform: uppercase;
     position: absolute; /* Mantenha a posição absoluta */
-    left: 150px; /* Mantém o alinhamento à esquerda */
+    left: 90px; /* Mantém o alinhamento à esquerda */
     transition: all 800ms ease-in-out;
 
 }
@@ -135,7 +135,7 @@ h1 {
     margin: 10px 0;
     text-transform: uppercase;
     position: absolute; /* Mantenha a posição absoluta */
-    left: 150px; /* Mantém o alinhamento à esquerda */
+    left: 90px; /* Mantém o alinhamento à esquerda */
     border: 1px solid #ff2121;
     transition: all 800ms ease-in-out;
 

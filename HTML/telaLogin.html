@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/telaLogin.css">
     <script src="/JAVASCRIPT/telaHome.js"></script>
+    <script src="/JAVASCRIPT/telaLogin.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -21,7 +22,8 @@
             <input type="password" placeholder="Senha" required>
         </div>
         <p class="esqueci">Esqueceu a senha? <a href="/HTML/telaEsqSenha.html" class="acessa">Acesse aqui</a></p>
-        <input type="submit" value="Entrar" class="btn-primary" id="butInciar">
+        <input type="submit" value="Entrar" class="btn-primary" id="butInciar"
+        onclick="redirectToAdm()">
         <input type="submit" value="Voltar" class="btn-second" id="butVoltar" onclick="redirectToVoltarH()">
 </body>
 </html>

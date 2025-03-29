@@ -1,185 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #dedfda;
+
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-.frame {              
-    background: #dedfda;
-    height: 100vh; 
-    width: 100vw; 
-    position: relative;
-    overflow: hidden;
+.frame {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-img {
-    position: absolute;
-    right: 50%;
-    object-fit: cover;  
+.frame>section {
+    margin-right: 5%;
+    width: 50vw;
+
 }
+
+.frame>.foto img {
+    width: 40vw;
+}
+
+
 
 h1 {
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
-    position: absolute;
     font-size: 150px;
     font-weight: 400;
-    right: 560px;
-    top: 55px;
+    text-decoration: none;
+
 }
 
-.subTitulo {
+h2 {
+    margin-top: 5%;
     color: #000000;
-    text-align: left;
-    font-family: "Oswald", sans-serif;
-    font-size: 48px; 
-    line-height: 110.34%;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
     font-weight: 400;
-    text-transform: uppercase;
-    position: absolute;
-    right: 730px;
-    top: 270px;
+}
+
+/*------------------------------*/
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .inputfield {
-    width: 40%;
-    height: 50px;
-    background: transparent;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid black;
     display: flex;
     align-items: center;
-    position: relative; /* Removendo a posição absoluta */
-    left: 1000px; /* Mantém o alinhamento à esquerda */
-    top: 350px;
+    gap: 20px;
+    margin-top: 20px;
+    text-decoration-style: none;
+
+    &>#ddi {
+        width: 60px;
+        flex: none;
+    }
+
+    &>#numero {
+        width: 400px;
+        flex: none;
+    }
+
 }
 
-.inputfield input {
-    flex: 5;
+.informações input[type="checkbox"] {
+    width: auto;
+}
+
+.informações p:first-child{
+    color: #706e6e;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+
+input {
+    width: 480px;
     background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    font-size: 18px;
-    color: black;
-}
-
-.inputfield + .inputfield {
-    margin-top: 20px; /* Espaço entre os campos de entrada */
-}
-
-/*-----------------------------------------------------------------------------------------------------*/
-
-.inputfield-dd {
-    width: 5%;
-    height: 50px;
+    font-size: 30px;
     background: transparent;
-    margin: 10px 0;
     border: none;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    position: relative; /* Removendo a posição absoluta */
-    left: 1000px; /* Mantém o alinhamento à esquerda */
-    top: 360px;
-}
-
-.inputfield-dd input {
-    flex: 5;
-    background: none;
-    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid black;
     outline: none;
-    width: 100%;
-    font-size: 18px;
-    color: black;
+    text-decoration: none
 }
 
-.inputfield-dd + .inputfield-dd {
-    margin-top: 20px; /* Espaço entre os campos de entrada */
-}
-
-/*-----------------------------------------------------------------------------------------------------*/
-
-.inputfield-numero {
-    width: 32%;
-    height: 50px;
-    background: transparent;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    position: relative; /* Removendo a posição absoluta */
-    left: 1150px; /* Mantém o alinhamento à esquerda */
-    top: 300px;
-}
-
-.inputfield-numero input {
-    flex: 5;
-    background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    font-size: 18px;
-    color: black;
-}
-
-.inputfield-numero + .inputfield-numero {
-    margin-top: 20px; /* Espaço entre os campos de entrada */
-}
-
-/*-----------------------------------------------------------------------------------------------------*/
-
-.volt{
-    position: relative;
-    color: black;
-    text-decoration: none; 
+.informações {
     font-family: "Poppins", sans-serif;
-    top: 3px;
-    left: 1810px;
-    
+
 }
 
-.esqueci{
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    align-items: center;
-    position: relative; /* Removendo a posição absoluta */
-    left: 90px; /* Mantém o alinhamento à esquerda */
-    top: 400px;
-    right: 160px;
-    left: 950px;
-}
+/*------------------botoes---------------------------------*/
 
-.acessa{
-    font-family: "Poppins", sans-serif;
-    color: #ff2121;
-}
+
 
 .btn-primary {
     font-family: "Poppins", sans-serif;
-    width: 18%;
+    width: 30%;
     height: 50px;
     border: none;
     background: #ff2121;
     color: #fff;
     font-weight: 600;
-    margin: 50px 0;
     text-transform: uppercase;
-    position: absolute; /* Mantenha a posição absoluta */
-    right: 170px;
     transition: all 800ms ease-in-out;
-
+    margin-top: 5%;
 }
 
 .btn-primary:hover {
@@ -191,19 +131,16 @@ h1 {
 
 .btn-second {
     font-family: "Poppins", sans-serif;
-    width: 18%;
+    width: 30%;
     height: 50px;
     border: none;
     background: white;
     color: #ff2121ff;
     font-weight: 600;
-    margin: 450px 0;
     text-transform: uppercase;
-    position: absolute; /* Mantenha a posição absoluta */
-    right: 570px;
     border: 1px solid #ff2121;
     transition: all 800ms ease-in-out;
-
+    margin-left: 0%;
 }
 
 .btn-second:hover {
@@ -211,50 +148,4 @@ h1 {
     color: white;
     border: 1px solid white;
     cursor: pointer;
-}
-
-
-#butInciar {
-    top: 800px; /* Ajusta a posição do botão de login abaixo do .txtHome */
-}
-
-.sms{
-    font-family: "Poppins", sans-serif;
-    position: absolute; 
-    left: 1000px;
-    top: 715px;
-}
-
-#tp{
-    position: absolute;
-    left: 1000px;
-    top: 760px;
-}
-
-#tpd{
-    position: absolute;
-    left: 1000px;
-    top: 800px;
-}
-
-.nov{
-    font-family: "Poppins", sans-serif;
-    position: absolute;
-    left: 1020px;
-    top: 754px;
-}
-
-.poli{
-    font-family: "Poppins", sans-serif;
-    position: absolute;
-    left: 1020px;
-    top: 794px;
-}
-
-.pp{
-    color: #ff2121;
-    font-family: "Poppins", sans-serif;
-    position: absolute;
-    left: 1130px;
-    top: 794px;
 }
