@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -195,6 +196,86 @@ header {
 .h3Descrição {
     font-family: "Poppins", sans-serif;
     font-size: 34px;
+    margin-left: -2px;
+}
+
+.swiper {
+    width: 70%;
+    height: 70%;
+    margin-top: 5%;
+    font-family: "Poppins", sans-serif;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+h3 {
+    margin: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.txt-valor {
+    color: #000000;
+    margin: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.swiper .btn-comprar{
+   width: 150px;
+   height: 40px;
+}
+
+
+.swiper .btn-adicionar{
+    width: 150px;
+    height: 40px;
+}
+
+.title-cont {
+    font-family: "Poppins", sans-serif;
+    margin-top: 7%;
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-cont::before,
+.title-cont::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background-color: #ff2121;
+    width: 40%;
+}
+
+.title-cont::before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.title-cont::after {
+    left: 100%;
+    margin-left: 10px;
 }
 
 /*---------------------------------------------------------------------footer-----------------------------------------------------------------------------------------------*/
@@ -203,7 +284,7 @@ header {
     background: #dedfda;
     width: 100%;
     height: 200;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 
@@ -238,7 +319,6 @@ ul {
 }
 
 .texto-bloco p {
-    
     font-family: "Poppins", sans-serif;
     color: #ff2121;
     font-size: 24px;
