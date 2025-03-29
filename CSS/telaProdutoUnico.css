@@ -149,6 +149,8 @@ header {
     color: #ff2121;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all 800ms ease-in-out;
+
 
 }
 
@@ -168,6 +170,8 @@ header {
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all 800ms ease-in-out;
+
 }
 
 .btn-comprar:hover {
@@ -198,7 +202,7 @@ header {
 .rodape {
     background: #dedfda;
     width: 100%;
-    height: 400px;
+    height: 200;
     margin-top: 10%;
 }
 
@@ -207,10 +211,9 @@ header {
 .grid-container {
     margin-right: 5%;
     margin-left: 5%;
-    height: 300px;
+    height: 200px;
     display: grid;
     grid-template-columns: auto auto auto 400px;
-    grid-template-rows: auto auto;
     grid-template-areas:
         "atendimento duvidas aaaaaaaaaaa orpheus"
         "iconsRodape iconsRodape iconsRodape orpheus";
@@ -245,7 +248,7 @@ ul {
 
 .iconsRodape {
     grid-area: iconsRodape;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     color: #ff2121;
     font-family: "Poppins", sans-serif;
@@ -265,12 +268,12 @@ ul {
 .lf {
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 150px;
+    font-size: 120px;
     text-decoration: none;
 }
 
 .logo-footer {
-    margin-top: 30%;
+    margin-top: 20px;
     grid-column: 4;
     grid-row: 1 / 3;
 

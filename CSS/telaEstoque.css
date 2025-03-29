@@ -103,6 +103,8 @@ h2{
     position: relative;
     top: 30px;
     left: 700px;
+    transition: all 800ms ease-in-out;
+
 }
 
 .btn-primary:hover {

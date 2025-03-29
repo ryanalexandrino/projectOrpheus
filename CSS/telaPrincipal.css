@@ -181,7 +181,10 @@ input {
     object-fit: cover;
 }
 
+
+
 .btn-adicionar {
+    font-size: 15px;
     font-family: "Poppins", sans-serif;
     width: 43%;
     height: 40px;
@@ -191,6 +194,7 @@ input {
     font-weight: 600;
     text-transform: uppercase;
     margin: 10px;
+    transition: all 800ms ease-in-out;
 }
 
 .btn-adicionar:hover {
@@ -201,6 +205,7 @@ input {
 }
 
 .btn-comprar {
+    font-size: 15px;
     font-family: "Poppins", sans-serif;
     width: 43%;
     height: 40px;
@@ -209,6 +214,8 @@ input {
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all 800ms ease-in-out;
+
 }
 
 .btn-comprar:hover {
@@ -234,7 +241,7 @@ h3{
 .rodape {
     background: #dedfda;
     width: 100%;
-    height: 400px;
+    height: 200;
     margin-top: 10%;
 }
 
@@ -243,16 +250,13 @@ h3{
 .grid-container {
     margin-right: 5%;
     margin-left: 5%;
-    height: 300px;
+    height: 200px;
     display: grid;
     grid-template-columns: auto auto auto 400px;
-    grid-template-rows: auto auto;
     grid-template-areas:
         "atendimento duvidas aaaaaaaaaaa orpheus"
         "iconsRodape iconsRodape iconsRodape orpheus";
 }
-
-
 
 ul {
     margin-top: 10px;
@@ -273,7 +277,7 @@ ul {
 }
 
 .texto-bloco p {
-    margin-left: 0%;
+    margin-left: 5%;
     font-family: "Poppins", sans-serif;
     color: #ff2121;
     font-size: 24px;
@@ -283,7 +287,7 @@ ul {
 
 .iconsRodape {
     grid-area: iconsRodape;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     color: #ff2121;
     font-family: "Poppins", sans-serif;
@@ -303,12 +307,12 @@ ul {
 .lf {
     color: #ff2121;
     font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 150px;
+    font-size: 120px;
     text-decoration: none;
 }
 
 .logo-footer {
-    margin-top: 30%;
+    margin-top: 20px;
     grid-column: 4;
     grid-row: 1 / 3;
 
@@ -325,20 +329,4 @@ ul {
     font-size: 13px;
     text-align: center;
 
-}
-
-
-
-@media screen and (max-width: 900px) {
-    .img-desktop{
-        display: none;
-    }
-
-    .img-mobile{
-        display: block;
-    }
-
-    .nav-auto, .nav-manual{
-        margin-top: 60%;
-    }
 }

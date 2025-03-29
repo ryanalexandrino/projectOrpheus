@@ -6,25 +6,8 @@
     margin: 0;
 }
 
-.frame-9 {
-    background: #dedfda;
-    height: 100vh;
-    /* Ocupa toda a altura da tela */
-    width: 100vw;
-    /* Ocupa toda a largura da tela */
-    position: relative;
-    overflow: hidden;
-}
 
-.logo {
-    width: 150px;
-    height: 137px;
-    position: absolute;
-    left: 0px;
-    top: 10px;
-    object-fit: cover;
-    aspect-ratio: 150/137;
-}
+
 
 .orpheus {
     writing-mode: vertical-rl;
@@ -32,81 +15,72 @@
     color: #ff2121;
     letter-spacing: -40px;
     font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 120px;
+    font-size: 115px;
     font-weight: 400;
     position: absolute;
     left: -50px;
-    top: 20%;
-    padding-left: 0%;
+    padding-top: 2%;
 }
 
+.controlador {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .icon {
+        width: 50px;
+    }
+
+    &>.navbar:first-child {
+        border-bottom: 3px solid red;
+    }
+}
+
+.navbar {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
 
 .text {
     color: #ff2121;
-    font-family: "JuliusSansOne-Regular", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     font-weight: 400;
 }
 
-.textos {
-    display: flex;
-    gap: 70px;
-    position: absolute;
-    left: 950px;
-    top: 118px;
-    transform: translateX(-50%);
-}
 
-.BigLine {
-    margin-top: -3px;
-    border-style: solid;
-    border-color: #ff2121;
-    border-width: 3px 0 0 0;
-    width: 1020px;
-    position: absolute;
-    left: 440px;
-    top: 178px;
-}
 
-.SmallLine {
-    margin-top: -3px;
-    border-style: solid;
-    border-color: #ff2121;
-    border-width: 3px 0 0 0;
-    border-radius: 15%;
-    width: 200px;
-    height: 0px;
-    position: absolute;
-    left: 440px;
-    top: 175.13px;
-}
 
-.textVazio {
+h2 {
     color: #000000;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 400;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 15%;
 }
 
+.mensagem{
+    text-align: center;
+    
+    
+}
 
 .btn {
     font-family: "Poppins", sans-serif;
-    width: 15%;
+    width: 20%;
     height: 50px;
     border: 1px solid #ff2121;
-   
     background: #ff2121;
     color: #fff;
     font-weight: 600;
-    margin: 10px 0;
     text-transform: uppercase;
-    position: absolute;
-    right: 160px;
+    margin-top: 20px;
+    transition: all 500ms ease-in-out;
+    
+
 }
 
 .btn:hover {
@@ -114,43 +88,5 @@
     color: #ff2121;
     border: 1px solid #ff2121;
     cursor: pointer;
-}
-
-#butVoltar {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.icon1{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 498px;
-}
-
-.icon2{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 700px;
-}
-
-.icon3{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 920px;
-}
-
-.icon4{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 1150px;
+    transform: 3s;
 }

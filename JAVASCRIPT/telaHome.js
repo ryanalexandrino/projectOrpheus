@@ -13,3 +13,6 @@ function redirectToVoltarH() {
 function redirectToAdicionar() {
     window.location.href = ""; 
 }
+function redirectToPrincipal() {
+    window.location.href = "/HTML/telaPrincipal.html"; 
+}

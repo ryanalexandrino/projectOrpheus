@@ -95,6 +95,8 @@ h1 {
     color: #fff;
     border: none;
     position: relative; /* Remover posição absoluta */
+    transition: all 800ms ease-in-out;
+
 }
 
 .btn-primary:hover {
@@ -108,6 +110,8 @@ h1 {
     color: #ff2121;
     border: 1px solid #ff2121;
     position: relative; /* Remover posição absoluta */
+    transition: all 800ms ease-in-out;
+
 }
 
 .btn-second:hover {

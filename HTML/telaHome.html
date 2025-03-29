@@ -11,20 +11,29 @@
 
 <body>
     <div class="frame">
-        <img class="img" src="/FOTOS/imgHome.png" />
-        <h1 class="titulo">Orpheus</h1>
-        <h3 class="txtHome">
-            Inicie sessão para usufruir de uma experiência personalizada e acessar a
-            todos os nossos serviços.
-        </h3>
-        <h2 class="subTitulo">
-            seu show
-            <br>
-            começa aqui!
-        </h2>
-        <input type="submit" value="INICIAR SESSÃO" class="btn-primary" id="butInciar" onclick="redirectToLogin()">
-        <br>
-        <input type="submit" value="REGISTRE-SE" class="btn-second" id="butLogar" onclick="redirectToRegister()">
+        <section>
+            <a href="/HTML/telaPrincipal.html" class="logo">
+                <p>Orpheus</p>
+            </a>
+            <h1>
+                seu show
+                <br>
+                começa aqui!
+            </h1>
+            <h2>
+                Inicie sessão para usufruir de uma experiência personalizada e acessar a
+                todos os nossos serviços.
+            </h2>
+
+            <input type="submit" value="INICIAR SESSÃO" class="btn-primary" id="but" onclick="redirectToLogin()">
+
+            <input type="submit" value="REGISTRE-SE" class="btn-second" id="but" onclick="redirectToRegister()">
+        </section>
+
+        <div class="foto">
+            <img src="/FOTOS/imgHome.png" />
+        </div>
+    </div>
 </body>
 
-</html> 
+</html>
