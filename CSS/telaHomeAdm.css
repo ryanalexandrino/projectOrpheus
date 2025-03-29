@@ -10,6 +10,7 @@
 
 body,
 html {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -21,11 +22,13 @@ html {
 }
 
 .left {
-  width: 40%;
+  width: 30%;
+  height: 100%;
   background-color: #dedfda;
   z-index: 1;
   padding: 20px;
 }
+
 
 .right {
   width: 60%;
@@ -35,10 +38,10 @@ html {
 
 .titulo {
   font-family: "Big Shoulders Inline", sans-serif;
-  font-size: 400px;
+  font-size: 500px;
   color: #ff2121;
   position: absolute;
-  left: 720px;
+  left: 480px;
   top: 160px;
 }
 
@@ -47,8 +50,8 @@ html {
   position: absolute;
   color: black;
   font-size: 30px;
-  left: 1300px;
-  top: 590px;
+  left: 1200px;
+  top: 680px;
 }
 
 img {
@@ -67,8 +70,8 @@ img {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: black;
-  left: 60px;
-  top: 325px;
+  left: 10%;
+  top: 35%;
 }
 
 .opcaoDois{
@@ -77,8 +80,8 @@ img {
   font-family: "Poppins", sans-serif;
   color: black;
   text-decoration: none;
-  left: 60px;
-  top: 383px;
+  left: 10%;
+  top: 45%;
 }
 
 .opcaoTres{
@@ -87,8 +90,8 @@ img {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: black;
-  left: 60px;
-  top: 440px;
+  left: 10%;
+  top: 55%;
 }
 
 /*-----------------------------------------------------------------*/
@@ -97,22 +100,22 @@ img {
   border-style: solid;
   border-color: #000000;
   border-width: 2px 0 0 0;
-  width: 503px;
+  width: 400px;
   height: 0px;
-  position: absolute;
-  left: 79px;
-  top: 390px;
+  position: relative;
+  left: 10%;
+  top: 35%;
 }
 
 .line-2 {
   border-style: solid;
   border-color: #000000;
   border-width: 2px 0 0 0;
-  width: 503px;
+  width: 400px;
   height: 0px;
-  position: absolute;
-  left: 79px;
-  top: 500px;
+  position: relative;
+  left: 10%;
+  top: 45%;
 }
 
 .line-3 {
@@ -120,9 +123,9 @@ img {
   border-style: solid;
   border-color: #000000;
   border-width: 2px 0 0 0;
-  width: 503px;
+  width: 400px;
   height: 0px;
-  position: absolute;
-  left: 79px;
-  top: 610px;
+  position: relative;
+  left: 10%;
+  top: 55%;
 }
