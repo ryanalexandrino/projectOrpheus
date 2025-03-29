@@ -21,13 +21,12 @@ body {
     width: 100vw; 
     display: flex;
     justify-content: center;
-
 }
 
 .frame>section {
     width: 50vw;
     margin-left: 5%;
-
+    margin-top: 5%;
 }
 
 .frame>.foto img {
@@ -40,16 +39,15 @@ body {
     font-size: 150px;
     font-weight: 400;
     text-decoration: none;
-
 }
 
 h1 {
-    margin-top: 5%;
     color: #000000;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-top: 2%;
 }
 
 h2 {
@@ -59,6 +57,7 @@ h2 {
     font-weight: 400;
     width: 557px;
     height: 199px;
+    margin-top: 3%;
 }
 
 #but {
@@ -69,7 +68,7 @@ h2 {
 }
 
 #but:first-of-type {
-    margin-top: 5%;
+    margin-top: -1%;
 }
 
 .btn-primary {

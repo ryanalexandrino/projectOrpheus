@@ -42,14 +42,15 @@ h1 {
     font-size: 150px;
     font-weight: 400;
     text-decoration: none;
+    margin-top: 2%;
 
 }
 
 h2 {
-    margin-top: 5%;
+    margin-top: 3%;
     color: #000000;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 48px; 
     font-weight: 400;
 }
 
@@ -62,8 +63,9 @@ input[type="number"]::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 20px;
     text-decoration-style: none;
+    margin-top: 3%;
+    
 
     &>#ddi {
         width: 60px;
@@ -71,10 +73,15 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     &>#numero {
-        width: 400px;
+        width: 670px;
         flex: none;
     }
 
+}
+
+.inp{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
 }
 
 .informações input[type="checkbox"] {
@@ -83,21 +90,20 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .informações p:first-child{
     color: #706e6e;
-    margin-bottom: 5%;
-    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: "Poppins", sans-serif;
 }
 
 
 input {
-    width: 480px;
+    width: 750px;
     background: none;
-    font-size: 30px;
     background: transparent;
     border: none;
-    font-size: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     outline: none;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .informações {
@@ -111,7 +117,7 @@ input {
 
 .btn-primary {
     font-family: "Poppins", sans-serif;
-    width: 30%;
+    width: 35%;
     height: 50px;
     border: none;
     background: #ff2121;
@@ -120,6 +126,7 @@ input {
     text-transform: uppercase;
     transition: all 800ms ease-in-out;
     margin-top: 5%;
+    margin-left: 3%;
 }
 
 .btn-primary:hover {
@@ -131,7 +138,7 @@ input {
 
 .btn-second {
     font-family: "Poppins", sans-serif;
-    width: 30%;
+    width: 35%;
     height: 50px;
     border: none;
     background: white;
@@ -140,7 +147,7 @@ input {
     text-transform: uppercase;
     border: 1px solid #ff2121;
     transition: all 800ms ease-in-out;
-    margin-left: 0%;
+    margin-left: 2%;
 }
 
 .btn-second:hover {
