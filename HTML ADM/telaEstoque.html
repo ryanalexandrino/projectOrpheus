@@ -9,18 +9,97 @@
 <body>
     <div class="container">
         <div class="left">
-            <img src="/FOTOS/image.png" alt="">
+            <a href="/HTML ADM/telaHomeAdm.html">
+                <button type="button" class="return-button">
+                    <img src="/ICON/return.png" alt="Voltar" />
+                </button>
+            </a>            
             <a href="/HTML ADM/telaEstoque.html" class="opcaoUm"><p>ESTOQUE</p></a>
             <div class="line-1"></div>
             <a href="#" class="opcaoDois"><p>PEDIDOS</p></a>
             <div class="line-2"></div>
             <a href="#" class="opcaoTres"><p>USUARIOS</p></a>
             <div class="line-3"></div>
-            <a href="/HTML ADM/telaHomeAdm.html"><h1>Orpheus</h1></a>
+            <a href="/HTML ADM/telaHomeAdm.html"><h1 class="logo">Orpheus</h1></a>
         </div>
         <div class="right">
-            <h2>ESTOQUE</h2>
-            <input type="submit" value="ADICIONAR+" class="btn-primary"  onclick="redirectToAdicionar()">
+
+            <div class="header-right">
+                <h2>ESTOQUE</h2> <input type="submit" value="ADICIONAR+" class="btn-primary" onclick="redirectToAdicionar()">
+            </div>
+            
+
+            <div class="item">
+                <img src="/IMGS/Violão.png" alt="Violão">
+                <div class="item-info">
+                    
+                    <h3>Violão</h3>
+                    <p>Eagle CH889 NT Folk Cutway</p>
+                    <p class="pvend">Preço: R$ 2.079,00</p>
+                    <p class="disponivel">Disponível: 12</p>
+                </div>
+                <div class="item-buttons">
+                    <button class="edit-button">EDITAR</button>
+                    <button class="delete-button">EXCLUIR</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/IMGS/Teclado.png" alt="TECLADO">
+                <div class="item-info">
+                    <h3>Teclado</h3>
+                    <p>Concert C-300 61 Teclas/Usb</p>
+                    <p class="pvend">Preço: R$ 575,00</p>
+                    <p class="disponivel">Disponível: 03</p>
+                </div>
+                <div class="item-buttons">
+                    <button class="edit-button">EDITAR</button>
+                    <button class="delete-button">EXCLUIR</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/IMGS/guitarra1.png" alt="GUITARRA">
+                <div class="item-info">
+                    <h3>Guitarra</h3>
+                    <p>Gibson Les Paul</p>
+                    <p class="pvend">Preço: R$ 1.899,99</p>
+                    <p class="disponivel">Disponível: 06</p>
+                </div>
+                <div class="item-buttons">
+                    <button class="edit-button">EDITAR</button>
+                    <button class="delete-button">EXCLUIR</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/IMGS/Baixo.png" alt="BAIXO">
+                <div class="item-info">
+                    <h3>Baixo</h3>
+                    <p>Contra-baixo passivo 6 cordas Natural XB-21 Classic Series Tagima</p>
+                    <p class="pvend">Preço: R$ 1.341,00</p>
+                    <p class="disponivel">Disponível: 04</p>
+                </div>
+                <div class="item-buttons">
+                    <button class="edit-button">EDITAR</button>
+                    <button class="delete-button">EXCLUIR</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/IMGS/Saxofone.png" alt="SAXOFONE">
+                <div class="item-info">
+                    <h3>Saxofone</h3>
+                    <p>Alto Yamaha YAS 280</p>
+                    <p class="pvend">Preço: R$ 11.322,00</p>
+                    <p class="disponivel">Disponível: 01</p>
+                </div>
+                <div class="item-buttons">
+                    <button class="edit-button">EDITAR</button>
+                    <button class="delete-button">EXCLUIR</button>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
