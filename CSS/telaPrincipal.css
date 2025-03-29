@@ -125,6 +125,38 @@ section.slider {
     margin-left: -50%;
 }
 
+
+/*-------------------------------------------------------------BUSCAR------------------------------------------------*/
+
+.buscarProduto {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 10%;
+
+}
+
+input {
+    background: none;
+    font-size: 30px;
+    width: 25%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-family: "Oswald", sans-serif;
+}
+
+.buscarProduto img {
+    border-bottom: 2px solid black;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    /* Torna a lupa clicável */
+}
+
+
 /*-------------------------------------------------------------PRODUTOS------------------------------------------------*/
 
 .swiper {
@@ -192,7 +224,7 @@ h3{
 }
 
 .txt-valor{
-    color: #309736;
+    color: #000000;
     margin: 8px;
     font-family: "Poppins", sans-serif;
 }
@@ -220,6 +252,8 @@ h3{
         "iconsRodape iconsRodape iconsRodape orpheus";
 }
 
+
+
 ul {
     margin-top: 10px;
     color: #000000;
@@ -239,7 +273,7 @@ ul {
 }
 
 .texto-bloco p {
-    margin-left: 5%;
+    margin-left: 0%;
     font-family: "Poppins", sans-serif;
     color: #ff2121;
     font-size: 24px;
