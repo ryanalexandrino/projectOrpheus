@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo de Compra</title>
+    <link rel="stylesheet" href="/CSS/telaConfirmacao.css"> <!-- Link para o CSS -->
+    <script defer src="/JAVASCRIPT/telaConfirmacao.js"></script> <!-- Link para o JS -->
+
+    <!-- Importação das fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:wght@700&family=Oswald:wght@400&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- cabeçalho  -->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="/HTML/telaCarrinhoVz.html">CARRINHO</a></li>
+                        <li><a href="/HTML/telaEntrega.html">ENTREGA</a></li>
+                        <li><a href="/HTML/telaPagamento.html">PAGAMENTO</a></li>
+                        <li><a href="/HTML/telaConfirmacao.html" class="ativa">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <!-- Caixa com os detalhes da compra(s)-->
+    <div class="container">
+        <h2>Detalhes da Compra</h2>
+        <ul id="detalhes-compra">
+            <li><strong>Número do pedido:</strong> #972302</li>
+            <li><strong>Destinatário:</strong> Kurt Cobain</li>
+            <li><strong>E-Mail:</strong> KurtCobain@gmail.com</li>
+            <li><strong>Telefone:</strong> (11) 5682-7300</li>
+            <li><strong>Produto:</strong> Guitarra Wgs Stratocaster Single Coil Cerâmico Winner</li>
+            <li><strong>Quantidade:</strong> 01</li>
+            <li><strong>Preço:</strong> R$1899,99</li>
+            <li><strong>Frete:</strong> 80,50</li>
+            <li><strong>Valor total:</strong> R$1.980,49</li>
+            <li><strong>Transportadora:</strong> Loggi Express</li>
+            <li><strong>Endereço:</strong> Av. Eng. Eusébio Stevaux, 823 - Santo Amaro, São Paulo - SP</li>
+            <li><strong>CEP:</strong> 04696-000</li>
+            <li><strong>Data da entrega:</strong> 05/04/2025</li>
+            <li><strong>Forma de pagamento:</strong>    Cartão de Débito</li>
+        </ul>
+        <div class="botoes">
+            <button id="voltar">Voltar</button>
+            <button id="confirmar-compra">Confirmar Compra</button>
+        </div>
+    </div>
+
+    <!-- Modelo de Confirmação -->
+    <div class="modal">
+        <div class="modal-content">
+            <img src="https://cdn-icons-png.flaticon.com/512/395/395855.png" alt="Ícone de confirmação" class="icon">
+            <h2>Confirmação da Operação</h2>
+            <p>Evento de Confirmação da compra foi concluído.</p>
+            <p>Comprovante enviado para seu E-Mail.</p>
+            <p class="data-hora">Data/Hora: <strong id="data-confirmacao">00/00/0000 00:00</strong></p>
+            <div class="buttons">
+                <button class="btn menu">VOLTAR PARA O MENU</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
