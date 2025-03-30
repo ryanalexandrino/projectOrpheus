@@ -1,0 +1,210 @@
+
+/* Header */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 4rem;
+}
+
+.icon1,
+.icon2 {
+    width: 45px;
+    /* Reduzindo o tamanho das imagens */
+    height: 45px;
+}
+
+.icons a {
+    margin-right: 20px;
+    /* Adicionando espaçamento entre as imagens */
+}
+
+.icons a:last-child {
+    margin-right: 0;
+    /* Removendo a margem à direita da última imagem */
+}
+
+.topoCima>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topoCima {
+    background-color: black;
+    padding: 20px 4%;
+}
+
+.topoBaixo nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.topoBaixo nav ul li a {
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    transition: .3s;
+}
+
+.topoBaixo nav ul li a:hover {
+    background-color: #ff2121;
+    color: white;
+}
+
+.menuDrop {
+    position: relative;
+}
+
+.menuDrop .drop {
+    position: absolute;
+    background-color: #309736;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#navPag {
+    border-bottom: 5px solid #ff2121;
+}
+
+/* Reset e Container Principal */
+.boleto-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.boleto-title {
+    font-size: 1.8rem;
+    color: #ff2121;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.boleto-title sup {
+    font-size: 0.8rem;
+}
+
+/* Área de Informações */
+.boleto-alert {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #ff2121;
+}
+
+.boleto-subtitle {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.boleto-text {
+    margin-bottom: 1.5rem;
+}
+
+/* Checkbox de Informação */
+.boleto-notice {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.boleto-checkbox {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.boleto-checkbox-label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Código de Barras */
+.boleto-code {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.boleto-barcode {
+    font-family: monospace;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    word-break: break-all;
+    color: #333;
+}
+
+/* Botões de Ação */
+.boleto-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.boleto-button {
+    padding: 0.8rem 1.2rem;
+    background-color: #dedfda;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.boleto-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .boleto-container {
+        padding: 15px;
+    }
+    
+    .boleto-title {
+        font-size: 1.5rem;
+    }
+    
+    .boleto-actions {
+        flex-direction: column;
+    }
+    
+    .boleto-button {
+        width: 100%;
+    }
+    
+    .footer-links {
+        gap: 10px;
+    }
+}

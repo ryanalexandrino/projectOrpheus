@@ -1,0 +1,256 @@
+
+/* Header */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 4rem;
+}
+
+.icon1,
+.icon2 {
+    width: 45px;
+    /* Reduzindo o tamanho das imagens */
+    height: 45px;
+}
+
+.icons a {
+    margin-right: 20px;
+    /* Adicionando espaçamento entre as imagens */
+}
+
+.icons a:last-child {
+    margin-right: 0;
+    /* Removendo a margem à direita da última imagem */
+}
+
+.topoCima>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topoCima {
+    background-color: black;
+    padding: 20px 4%;
+}
+
+.topoBaixo nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.topoBaixo nav ul li a {
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    transition: .3s;
+}
+
+.topoBaixo nav ul li a:hover {
+    background-color: #ff2121;
+    color: white;
+}
+
+.menuDrop {
+    position: relative;
+}
+
+.menuDrop .drop {
+    position: absolute;
+    background-color: #309736;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#navPag {
+    border-bottom: 5px solid #ff2121;
+}
+
+
+/* ------------------------------------------- Layout Principal ------------------------------------------- */
+
+/* Estilos de ambos elementos */
+.payment-page {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 40px;
+}
+
+.payment-section {
+    flex: 1.5;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+}
+
+.summary-section {
+    flex: 1;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos do Formulário */
+.payment-title {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 25px;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.payment-radio {
+    margin-right: 10px;
+}
+
+.payment-label {
+    font-family: "Poppins", sans-seri;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Estilos do Resumo */
+.summary-title {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 25px;
+}
+
+.summary-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.summary-item {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.summary-value {
+    font-weight: 500;
+}
+
+.summary-total {
+    font-family: "Poppins", sans-seri;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.total-value {
+    color: #ff2121;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff2121;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto;
+}
+
+.continue-button:hover {
+    background-color: darkgreen;
+}
+
+.security-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .payment-page {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .payment-section,
+    .summary-section {
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaCarrinhoVazio.css">
+    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <title>Tela de Pagamento - Orpheus</title>
+</head>
+
+<body>
+    <!-- Estrutura padrão do site, seguindo a mesma opção estética e permitindo ao usuário acesso total a todo momento-->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li id="navPag"><a href="#">CARRINHO</a></li>
+                        <li><a href="#">ENTREGA</a></li>
+                        <li><a href="#">PAGAMENTO</a></li>
+                        <li><a href="#">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <div class="mensagem">
+        <h2>SEU CARRINHO ESTA VAZIO<br>PROCURE NOVOS PRODUTOS!</h2>
+        <a href="/HTML/telaPrincipal.html"><input type="submit" value="conferir produtos" class="btn" onclick="redirectToPrincipal()"></a>
+    </div>
+
+</body>
+
+</html>

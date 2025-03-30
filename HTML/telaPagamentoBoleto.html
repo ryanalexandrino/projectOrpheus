@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaPagamentoBoleto.css">
+    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <title>Boleto de Pagamento</title>
+</head>
+
+<body>
+    <!-- Estrutura padrão do site, seguindo a mesma opção estética e permitindo ao usuário acesso total a todo momento-->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="/HTML/telaCarrinhoVz.html">CARRINHO</a></li>
+                        <li><a href="#">ENTREGA</a></li>
+                        <li id="navPag"><a href="#">PAGAMENTO</a></li>
+                        <li><a href="/">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <div class="boleto-container">
+        <main class="boleto-main">
+
+            <div class="boleto-alert">
+                <h2 class="boleto-subtitle">Você tem até quarta-feira para pagar</h2>
+                <p class="boleto-text">
+                    Para pagar pelo Internet Banking, copie a linha digitável ou escanele o código de barras.
+                    Para pagar em qualquer banco, caixa eletrônico ou lotérica, por favor, imprima o boleto.
+                </p>
+
+                <div class="boleto-notice">
+                    <p for="boletoInfo" class="boleto-checkbox-label">Se o pagamento é feito de segunda a sexta, é creditado no dia seguinte. Se você paga no fim de semana, só será creditado na terça-feira.</p>
+                </div>
+
+                <div class="boleto-code">
+                    <div class="boleto-barcode">4220/31504 00064:89737 00634 324625 110300000199900</div>
+                    <img src="/IMGS/barcode.png" alt="">
+                </div>
+            </div>
+
+            <div class="boleto-actions">
+                <button class="boleto-button">Copiar linha digitável</button>
+                <button class="boleto-button">Imprimir boleto</button>
+                <button class="boleto-button">Ver em minhas compras</button>
+            </div>
+        </main>
+    </div>

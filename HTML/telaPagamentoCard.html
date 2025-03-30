@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaPagamentoCard.css">
+    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <title>Pagamento no cartão</title>
+</head>
+
+<body>
+    <!-- Estrutura padrão do site, seguindo a mesma opção estética e permitindo ao usuário acesso total a todo momento-->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="/HTML/telaCarrinhoVz.html">CARRINHO</a></li>
+                        <li><a href="#">ENTREGA</a></li>
+                        <li id="navPag"><a href="#">PAGAMENTO</a></li>
+                        <li><a href="/">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <div class="payment-page">
+        <!-- Seção de Pagamento (Esquerda) -->
+        <section class="payment-section">
+            <h1 class="payment-title">Pagamento com Cartão</h1>
+            
+            <div class="payment-method">
+                <input type="radio" id="newCard" name="paymentMethod" checked class="payment-radio">
+                <label for="newCard" class="payment-label">Cartão de crédito</label>
+            </div>
+            
+            <div class="payment-form">
+                <div class="form-group">
+                    <label for="cardNumber" class="form-label">Número do cartão</label>
+                    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" class="form-input">
+                </div>
+                
+                <div class="form-group">
+                    <label for="cardName" class="form-label">Nome no cartão</label>
+                    <input type="text" id="cardName" placeholder="Como aparece no cartão" class="form-input">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expiryDate" class="form-label">Validade</label>
+                        <input type="text" id="expiryDate" placeholder="MM/AA" class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="securityCode" class="form-label">CVV</label>
+                        <input type="number" id="securityCode" placeholder="123" class="form-input">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cpf" class="form-label">CPF do titular</label>
+                    <input type="text" id="cpf" placeholder="000.000.000-00" class="form-input">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção de Resumo (Direita) -->
+        <section class="summary-section">
+            <h2 class="summary-title">Resumo do Pedido</h2>
+            
+            <div class="summary-items">
+                <div class="summary-item">
+                    <span>Produto</span>
+                    <span class="summary-value">R$ 1.899,00</span>
+                </div>
+                
+                <div class="summary-item">
+                    <span>Frete</span>
+                    <span class="summary-value">80,50</span>
+                </div>
+                
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span class="total-value">R$ 1.980,50</span>
+                </div>
+            </div>
+            
+            <button class="continue-button">Finalizar Compra</button>
+            
+            <div class="security-info">
+                <div class="secure-icon">🔒</div>
+                <p>Pagamento seguro</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

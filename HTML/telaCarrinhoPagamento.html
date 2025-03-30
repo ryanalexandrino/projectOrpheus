@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaCarrinhoPagamento.css">
+    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <title>Tela de Pagamento - Orpheus</title>
+</head>
+
+<body>
+    <!-- Estrutura padrão do site, seguindo a mesma opção estética e permitindo ao usuário acesso total a todo momento-->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#">CARRINHO</a></li>
+                        <li><a href="#">ENTREGA</a></li>
+                        <li id="navPag"><a href="#">PAGAMENTO</a></li>
+                        <li><a href="#">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Opções de pagamento do carrinho, seguindo o wifefranme-->
+        <div class="pagamento-container">
+            <!-- Seção de Forma de Pagamento (esquerda) -->
+            <section class="formapag" id="formaPagamento">
+                <h2>Escolha a forma de pagamento!</h2>
+                <div class="caixaOp">
+                    <input type="radio" name="pagamento" id="PIX">
+                    <label for="PIX">PIX</label>
+                </div>
+                <div class="caixaOp">
+                    <input type="radio" name="pagamento" id="debito">
+                    <label for="debito">Cartão de Crédito</label>
+                </div>
+                <div class="caixaOp">
+                    <input type="radio" name="pagamento" id="boleto">
+                    <label for="boleto">Boleto</label>
+                </div>
+            </section>
+
+            <!-- Seção de Totais (direita) -->
+            <section class="formapag" id="totais">
+                <h3>Resumo da sua compra</h3>
+                <div class="resumo-linhas">
+                    <div class="linha">
+                        <p>Produto</p>
+                        <p class="valor">R$ 1899,99</p>
+                    </div>
+                    <div class="linha">
+                        <p>Frete (relampâgo)</p>
+                        <p class="valor">R$ 80,50</p>
+                    </div>
+                </div>
+                <div class="total">
+                    <p>Total a pagar</p>
+                    <p class="valor-total">R$ 1980,50</p>
+                </div>
+                <button id="btConfirmar">CONFIRMAR</button>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>

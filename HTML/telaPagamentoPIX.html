@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaPagamentoPIX.css">
+    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <title>Pagamento via PIX</title>
+</head>
+
+<body>
+    <!-- Estrutura padrão do site, seguindo a mesma opção estética e permitindo ao usuário acesso total a todo momento-->
+    <header>
+        <section class="topoCima">
+            <div class="interface">
+                <div class="logo">
+                    <h1>Orpheus</h1>
+                </div>
+                <div class="icons">
+                    <a href="/HTML/telaCarrinhoVz.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
+                    <a href="/HTML/telaHome.html"><img src="/ICON/user.png" class="icon1"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topoBaixo">
+            <div class="interface">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#">CARRINHO</a></li>
+                        <li><a href="#">ENTREGA</a></li>
+                        <li id="navPag"><a href="#">PAGAMENTO</a></li>
+                        <li><a href="#">CONFIRMAÇÃO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <div class="pagamento-container">
+        <!-- Seção Específica para PIX -->
+        <section class="formapag" id="pixDetails">
+            <h2><span class="pix-icon"></span> Pagamento via PIX</h2>
+
+            <div class="pix-info">
+                <div class="pix-qr-container">
+                    <div class="pix-qr-code">
+                        <!-- Espaço para o QR Code -->
+                        <img src="/IMGS/projetoOrpheusQRCode.jpg" alt="QR Code PIX" class="qr-img">
+                        <p class="qr-expires">Válido por: 30 minutos</p>
+                    </div>
+
+                    <div class="pix-copy-code">
+                        <p>Ou copie o código:</p>
+                        <div class="pix-code">
+                            00020126360014BR.GOV.BCB.PIX0114+5535999999999520400005303986540410.005802BR5925MERCADO DO
+                            SEU ZE6009SAO PAULO61080540900062250521qrcodepixexemplo6304A3A2
+                        </div>
+                        <button class="copy-btn">Copiar Código</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-instructions">
+                <h3>Como pagar:</h3>
+                <ol>
+                    <li>Abra o app do seu banco</li>
+                    <li>Selecione a opção PIX</li>
+                    <li>Escaneie o QR Code ou cole o código</li>
+                    <li>Confirme o pagamento</li>
+                </ol>
+            </div>
+        </section>
+    </div>
+</body>

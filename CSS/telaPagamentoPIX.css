@@ -1,0 +1,214 @@
+
+/* ---------------------------------- Header ---------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    color: #ff2121;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 4rem;
+}
+
+.icon1,
+.icon2 {
+    width: 45px;
+    /* Reduzindo o tamanho das imagens */
+    height: 45px;
+}
+
+.icons a {
+    margin-right: 20px;
+    /* Adicionando espaçamento entre as imagens */
+}
+
+.icons a:last-child {
+    margin-right: 0;
+    /* Removendo a margem à direita da última imagem */
+}
+
+.topoCima>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topoCima {
+    background-color: black;
+    padding: 20px 4%;
+}
+
+.topoBaixo nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.topoBaixo nav ul li a {
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    transition: .3s;
+}
+
+.topoBaixo nav ul li a:hover {
+    background-color: #ff2121;
+    color: white;
+}
+
+.menuDrop {
+    position: relative;
+}
+
+.menuDrop .drop {
+    position: absolute;
+    background-color: #309736;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#navPag{
+    border-bottom: 5px solid #ff2121;
+}
+
+/* ---------------------------------- main ---------------------------------- */
+
+/* Estilos gerais do container */
+.pagamento-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Estilo da seção de pagamento */
+.formapag {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+}
+
+/* Cabeçalho */
+h2 {
+    font-size: 1.8rem;
+    font-family: Poppins, sans seif;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pix-icon {
+    font-size: 2rem;
+}
+
+/* Layout das informações do PIX */
+.pix-info {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Container do QR Code */
+.pix-qr-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pix-qr-code {
+    text-align: center;
+    padding: 20px;
+    border: 2px dashed #e0e0e0;
+    border-radius: 8px;
+}
+
+.qr-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.qr-expires {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Área de copiar código */
+.pix-copy-code p {
+    margin-bottom: 10px;
+}
+
+.pix-code {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    word-break: break-all;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.copy-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff2121;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Instruções de pagamento */
+.payment-instructions {
+    font-family: Poppins, sans seif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.payment-instructions h3 {
+    margin-bottom: 15px;
+}
+
+.payment-instructions ol {
+    padding-left: 20px;
+}
+
+.payment-instructions li {
+    margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .pix-info {
+        flex-direction: column;
+    }
+}
