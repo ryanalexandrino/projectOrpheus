@@ -2,7 +2,7 @@ var cont = 1; // Define o contador para começar no primeiro slide
 
 setInterval(() => {
     proximaImg();
-}, 7000);  // Intervalo de 7 segundos
+}, 5000);  // Intervalo de 5 segundos
 
 function proximaImg() {
     cont++;  // Incrementa o contador para o próximo slide
