@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/telaPedidos.css">
+    <title>PEDIDOS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">     
+            <a href="/HTML ADM/telaEstoque.html" class="opcaoUm"><p>ESTOQUE</p></a>
+            <div class="line-1"></div>
+            <a href="/HTML ADM/telaPedidos.html" class="opcaoDois"><p>PEDIDOS</p></a>
+            <div class="line-2"></div>
+            <a href="/HTML ADM/telaUsuarios.html" class="opcaoTres"><p>USUARIOS</p></a>
+            <div class="line-3"></div>
+            <a href="/HTML ADM/telaHomeAdm.html" class="opcaoVoltar"><p>VOLTAR</p></a>
+            <div class="line-4"></div>
+            <a href="/HTML ADM/telaHomeAdm.html"><h1 class="logo">Orpheus</h1></a>
+        </div>
+        <div class="right">
+            <div class="header-right">
+                <h2>PEDIDOS</h2>
+            </div>
+
+            <div class="filter">
+                <input type="text" placeholder="Buscar por cliente ou pedido...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pedido</th>
+                        <th>Cliente</th>
+                        <th>Status</th>
+                        <th>Data</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1001</td>
+                        <td>Maria Silva</td>
+                        <td>Pendente</td>
+                        <td>30/03/2025</td>
+                        <td>R$ 1.899,00</td>
+                        <td class="actions">
+                            <button class="btn edit">Editar</button>
+                            <button class="btn delete">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#1002</td>
+                        <td>João Oliveira</td>
+                        <td>Enviado</td>
+                        <td>29/03/2025</td>
+                        <td>R$ 2.079,00</td>
+                        <td class="actions">
+                            <button class="btn edit">Editar</button>
+                            <button class="btn delete">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -160,6 +160,13 @@ h2{
 }
 
 /* Conteudos da direita */
+.right {
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
 .header-right{
   width: 100%;
@@ -167,14 +174,6 @@ h2{
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
-}
-
-.right {
-  width: 70%;
-  background-color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .item {
@@ -191,13 +190,14 @@ h2{
 }
 
 .item-info {
-  font-family: Oswald, sans-serif;
+  font-family: "Poppins", sans-serif;
   flex-grow: 1;
   margin-left: 20px;
 }
 
 .item-info h3 {
   font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -224,6 +224,7 @@ h2{
   color: #fff;
   cursor: pointer;
   margin-left: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .edit-button {
@@ -231,7 +232,7 @@ h2{
 }
 
 .delete-button {
-  background-color: #d00;
+  background-color: #ff2121;
 }
 
 .edit-button:hover {

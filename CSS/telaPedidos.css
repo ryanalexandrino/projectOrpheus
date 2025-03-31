@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: #dedfda;
+    z-index: 1;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 3%;
+    top: 5%;
+    font-family: "Big Shoulders Inline", sans-serif;
+    color: #ff2121;
+    font-size: 700%;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    font-weight: 200;
+    font-size: 50px;
+    top: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+
+.opcaoUm {
+    position: relative;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    left: 10%;
+    top: 30%;
+}
+
+.opcaoDois {
+    position: relative;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-decoration: none;
+    left: 10%;
+    top: 40%;
+}
+
+.opcaoTres {
+    position: relative;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    left: 10%;
+    top: 50%;
+}
+
+.opcaoVoltar {
+    position: relative;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #ff2121;
+    left: 10%;
+    top: 60%;
+}
+
+
+
+/*-----------------------------------------------------------------*/
+
+.line-1 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    width: 80%;
+    height: 0px;
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+
+.line-2 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    width: 80%;
+    height: 0px;
+    position: relative;
+    left: 10%;
+    top: 40%;
+}
+
+.line-3 {
+    margin-top: -2px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    width: 80%;
+    height: 0px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+}
+
+.line-4 {
+    margin-top: -2px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    width: 80%;
+    height: 0px;
+    position: relative;
+    left: 10%;
+    top: 60%;
+}
+
+/* Conteudos da direita */
+.right {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-right {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.filter {
+    text-align: left;
+    width: 100%;
+    top: 3%;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.filter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table td:nth-child(1) {
+    width: 12%;
+}
+
+table td:nth-child(2) {
+    width: 45%;
+}
+
+table td:nth-child(5) {
+    width: 15%;
+}
+
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; /* Alinha os botões à direita */
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    left: 80%;
+}
+
+.btn.edit {
+    background-color: #333;
+}
+
+.btn.delete {
+    background-color: #ff2121;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn.edit:hover {
+    background-color: #333;
+}
+
+.btn.delete:hover {
+    background-color: #a00;
+}
