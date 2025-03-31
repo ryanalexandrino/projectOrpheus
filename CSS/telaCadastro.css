@@ -25,14 +25,15 @@ body {
 }
 
 .frame>section {
+    margin-top: 2%;
     margin-right: 5%;
+    margin-left: 3%;
     width: 50vw;
 
 }
 
 .frame>.foto img {
-    width: 42vw;
-    height: 50vw;
+    width: 45vw;
 }
 
 
