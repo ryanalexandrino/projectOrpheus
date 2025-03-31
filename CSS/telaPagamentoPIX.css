@@ -183,7 +183,10 @@ h2 {
 }
 
 .copy-btn:hover {
-    background-color: darkgreen;
+    background: white;
+    color: #ff2121;
+    border: 1px solid #ff2121;
+    cursor: pointer;
 }
 
 /* Instruções de pagamento */
