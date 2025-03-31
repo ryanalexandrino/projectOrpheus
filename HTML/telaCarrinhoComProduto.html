@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/tela.CarrinhoComProduto.css   ">
-    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
+    <link rel="stylesheet" href="/CSS/tela.CarrinhoComProduto.css">
     <title>Carrinho de Compras</title>
 </head>
 
@@ -15,7 +14,7 @@
         <section class="topoCima">
             <div class="interface">
                 <div class="logo">
-                    <h1>Orpheus</h1>
+                    <a href="/HTML/telaPrincipal.html" class="lg"><h1>Orpheus</h1></a>
                 </div>
                 <div class="icons">
                     <a href="/HTML/telaCarrinhoVazio.html"><img src="/ICON/carrinho-de-compras.png" class="icon2"></a>
@@ -38,4 +37,58 @@
         </section>
     </header>
 
-    
+    <div class="payment-page">
+        <section class="payment-section">
+            <h1 class="payment-title">Carrinho - Produtos</h1>
+
+            <div class="payment-form">
+                <div class="form-group">
+                    <img src="/IMGS/guitarra.png" alt="" class="img-product">
+                    <div class="inf">
+                        <p class="nome">Guitarra Eletrica</p>
+                        <p class="valor">R$ 1.899,00</p>
+                    </div>
+                    <div class="lix">
+                        <img src="/ICON/lixeira-xmark.png" alt="">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="selector">
+                        <button class="button" id="decrease">-</button>
+                        <span class="quantity" id="quantity">1</span>
+                        <button class="button" id="increase">+</button>
+                    </div>
+                    <span class="available">+50 disponíveis</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Resumo (Direita) -->
+        <section class="summary-section">
+            <h2 class="summary-title">Resumo do Pedido</h2>
+
+            <div class="summary-items">
+                <div class="summary-item">
+                    <span>Produto</span>
+                    <span class="summary-value">R$ 1.899,00</span>
+                </div>
+
+                <div class="summary-item">
+                    <span>Frete</span>
+                    <span class="summary-value">R$ 80,50</span>
+                </div>
+
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span class="total-value">R$ 1.980,50</span>
+                </div>
+                <a href="/HTML/telaCarrinhoEntrega.html" class="continue-button">Continuar a compra</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="../JAVASCRIPT/telaComProduto.js"></script>
+</body>
+
+</html>

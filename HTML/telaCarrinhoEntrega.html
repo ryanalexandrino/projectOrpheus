@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/telaCarrinhoEntrega.css">
-    <script src="/JAVASCRIPT/telaPrincipal.js"></script>
     <title>Entrega - Cadastrar Endereço</title>
 </head>
 
@@ -30,7 +29,7 @@
                     <ul class="nav">
                         <li><a href="/HTML/telaCarrinhoVazio.html">CARRINHO</a></li>
                         <li id="navPag"><a href="/HTML/telaCarrinhoEntrega.html">ENTREGA</a></li>
-                        <li ><a href="#">PAGAMENTO</a></li>
+                        <li><a href="#">PAGAMENTO</a></li>
                         <li><a href="#">CONFIRMAÇÃO</a></li>
                     </ul>
                 </nav>
@@ -42,35 +41,35 @@
         <!-- Seção de Pagamento (Esquerda) -->
         <section class="payment-section">
             <h1 class="payment-title">Cadastro de Endereço</h1>
-            
+
             <div class="payment-method">
                 <input type="radio" id="newCard" name="paymentMethod" checked class="payment-radio">
                 <label for="newCard" class="payment-label">Novo Endereço</label>
             </div>
-            
+
             <div class="payment-form">
                 <div class="form-group">
                     <label for="cardNumber" class="form-label">CEP</label>
                     <input type="number" id="cardNumber" placeholder="00000-000" class="form-input">
                 </div>
-                
+
                 <div class="form-group">
                     <label for="cardName" class="form-label">Endereço</label>
                     <input type="text" id="cardName" placeholder="Av. Engenheiro Eusébio Stevaux" class="form-input">
                 </div>
-                
+
                 <div class="form-row">
                     <div class="form-group">
                         <label for="expiryDate" class="form-label">Bairro</label>
                         <input type="text" id="expiryDate" placeholder="São Paulo" class="form-input">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="securityCode" class="form-label">Estado</label>
                         <input type="number" id="securityCode" placeholder="São Paulo/SP" class="form-input">
                     </div>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="cpf" class="form-label">Complemento (opcional)</label>
                     <input type="text" id="cpf" placeholder="Centro Universitário SENAC" class="form-input">
@@ -78,35 +77,38 @@
 
                 <div class="form-group">
                     <label for="cpf" class="form-label">Informações adicionais do endereço</label>
-                    <input type="text" id="cpf" placeholder="No acadêmico 1, perto do estacionamento " class="form-input">
+                    <input type="text" id="cpf" placeholder="No acadêmico 1, perto do estacionamento "
+                        class="form-input">
                 </div>
 
-                <a href="/HTML/telaCarrinhoPagamento.html"><button class="continue-button">Cadastrar Endereço</button></a>
-                
+                <a href="/HTML/telaCarrinhoPagamento.html"><button class="continue-button">Cadastrar
+                        Endereço</button></a>
+
             </div>
         </section>
-        
+
         <!-- Seção de Resumo (Direita) -->
         <section class="summary-section">
             <h2 class="summary-title">Resumo do Pedido</h2>
-            
+
             <div class="summary-items">
                 <div class="summary-item">
                     <span>Produto</span>
                     <span class="summary-value">R$ 1.899,00</span>
                 </div>
-                
+
                 <div class="summary-item">
                     <span>Frete</span>
                     <span class="summary-value">80,50</span>
                 </div>
-                
+
                 <div class="summary-total">
                     <span>Total</span>
                     <span class="total-value">R$ 1.980,50</span>
                 </div>
             </div>
-            
+
+
         </section>
     </div>
 
